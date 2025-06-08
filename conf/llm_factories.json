@@ -763,6 +763,12 @@
                     "tags": "TEXT EMBEDDING,",
                     "max_tokens": 1024,
                     "model_type": "embedding"
+                },
+                {
+                    "llm_name": "BAAI/qwen3-reranker-0.6b",
+                    "tags": "TEXT RE-RANK,32K",
+                    "max_tokens": 32768,
+                    "model_type": "rerank"
                 }
             ]
         },
